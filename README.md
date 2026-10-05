@@ -1,117 +1,67 @@
 # Hi, I'm Prajwal Sharma 👋
 
-## Cybersecurity | Information Technology | Computing
+**Master of Computing (Cyber Security) student at Southern Cross University, Melbourne.**
+I build small, tested Python tools for security operations: log detection, phishing triage, traffic analysis and security auditing. Every project here runs, has tests, and uses synthetic data only.
 
-Master of Computing student specialising in Cyber Security, with a background in technical support, programming, information security, data analysis and technology-enabled operations.
-
-I am building a practical cybersecurity portfolio focused on security monitoring, incident response, information security, network security, Python automation, SQL, IoT security and data-driven problem solving.
-
----
-
-## 🛡️ Cybersecurity
-
-* Information Security Management
-* Security Risk Assessment
-* Incident Response
-* Security Monitoring
-* Log Analysis
-* Network Security
-* Vulnerability Management
-* Security Awareness
-* IoT Security
-* Threat Analysis
-
-## 💻 Programming & Technology
-
-* Python
-* Java
-* C / C++
-* SQL
-* Git & GitHub
-* Data Analysis
-* Machine Learning
-* TensorFlow / Keras
-
-## 📊 Data & Machine Learning
-
-* Python Data Preprocessing
-* Pandas
-* NumPy
-* Statistical Analysis
-* Dimensionality Reduction
-* Convolutional Neural Networks
-* Model Evaluation
-
-## 🌐 Networking & IoT
-
-* Network Fundamentals
-* IoT Architecture
-* MQTT
-* CoAP
-* Smart Campus Systems
-* Smart Farming Systems
-* IoT Security
+Melbourne, Australia · Open to SOC Analyst / Cyber Security Graduate roles
 
 ---
 
-## 🔐 Featured Projects
+## 🔐 Featured projects
 
-### 🛡️ Cybersecurity SOC Home Lab
+| Project | What it does | Stack |
+|---|---|---|
+| [log-detection-engine](https://github.com/prajwal-sharma-cyber/log-detection-engine) | Sigma-style YAML rules over Linux auth logs: brute force, password spraying, persistence, privilege abuse. ATT&CK-mapped HTML reports | Python, YAML, pytest |
+| [phishing-email-analyzer](https://github.com/prajwal-sharma-cyber/phishing-email-analyzer) | Triage `.eml` files: SPF/DKIM/DMARC, spoofed senders, look-alike links, risky attachments, verdict + report | Python (stdlib) |
+| [network-traffic-analyzer](https://github.com/prajwal-sharma-cyber/network-traffic-analyzer) | Finds port scans, DNS tunnelling and cleartext credentials in PCAP files | Python, Scapy, Wireshark |
+| [web-security-headers-scanner](https://github.com/prajwal-sharma-cyber/web-security-headers-scanner) | Grades HTTP security headers, cookies and TLS from A+ to F | Python, requests |
+| [01-cybersecurity-soc-home-lab](https://github.com/prajwal-sharma-cyber/01-cybersecurity-soc-home-lab) | Authentication-log analyser with sliding-window detections and incident report | Python |
+| [moveit-incident-analysis](https://github.com/prajwal-sharma-cyber/moveit-incident-analysis) | Case study of CVE-2023-34362 plus an IIS log threat-hunting script | Python, IR |
 
-A simulated SOC environment demonstrating authentication-log analysis, suspicious activity detection, investigation and incident documentation.
 
-### 🚨 MOVEit Incident Analysis
+| Area | Project |
+|---|---|
+| Vulnerability management | [vulnerability-management-lab](https://github.com/prajwal-sharma-cyber/vulnerability-management-lab) - CVSS + CISA KEV prioritisation with SLAs |
+| Threat intelligence | [mitre-attack-threat-analysis](https://github.com/prajwal-sharma-cyber/mitre-attack-threat-analysis) - detection coverage and ATT&CK Navigator layers |
+| GRC | [information-security-risk-assessment](https://github.com/prajwal-sharma-cyber/information-security-risk-assessment) - 5x5 risk register, residual risk, heat map |
+| Network security | [network-security-lab](https://github.com/prajwal-sharma-cyber/network-security-lab) - firewall rule-base auditor |
+| Cloud security | [cloud-security-basics](https://github.com/prajwal-sharma-cyber/cloud-security-basics) - AWS IAM least-privilege analyser |
+| Forensics | [digital-forensics-autopsy-lab](https://github.com/prajwal-sharma-cyber/digital-forensics-autopsy-lab) - evidence hashing, chain of custody, timelines |
+| AppSec | [sql-security-analysis](https://github.com/prajwal-sharma-cyber/sql-security-analysis) - SQL injection vs parameterised queries, PBKDF2 |
+| IoT security | [smart-campus-iot-security](https://github.com/prajwal-sharma-cyber/smart-campus-iot-security), [smart-farming-iot-security](https://github.com/prajwal-sharma-cyber/smart-farming-iot-security) - device and MQTT broker auditors |
+| Human risk | [phishing-social-engineering-analysis](https://github.com/prajwal-sharma-cyber/phishing-social-engineering-analysis), [security-awareness-program](https://github.com/prajwal-sharma-cyber/security-awareness-program) |
+| Tooling | [python-security-toolkit](https://github.com/prajwal-sharma-cyber/python-security-toolkit) - password checker, file integrity monitor |
+| Machine learning | [cnn-image-classification](https://github.com/prajwal-sharma-cyber/cnn-image-classification) - CNNs on CIFAR-10 |
 
-A cybersecurity case study examining vulnerability management, incident response, risk and security controls following the MOVEit Transfer incident.
-
-### 🐍 Python Security Toolkit
-
-A collection of defensive Python utilities covering password assessment, SHA-256 file hashing and security-log analysis.
 
 ---
+
+## 🛠️ Skills
+
+**Security operations:** log analysis, detection engineering, MITRE ATT&CK, incident response, phishing analysis, threat hunting
+**Network:** Wireshark, TCP/IP, DNS, segmentation, firewall policy review
+**Governance & risk:** risk assessment, vulnerability management (CVSS, KEV), security awareness metrics
+**Cloud & IoT:** AWS IAM, least privilege, MQTT/TLS hardening
+**Programming:** Python (argparse, pytest, Scapy, pandas), SQL, Java, Git & GitHub Actions
+
+## 🎯 Currently
+
+- Building a Wazuh SIEM home lab and writing detections for it
+- Studying for CompTIA Security+ *(edit to match what you are actually doing)*
 
 ## 🎓 Education
 
-**Master of Computing — Cyber Security**
-Southern Cross University
+**Master of Computing - Cyber Security**, Southern Cross University
+**Bachelor of Computer Applications**, Presidency College, Bangalore
 
-**Bachelor of Computer Applications (BCA)**
-Presidency College, Bangalore
+## 💼 Experience
 
----
-
-## 💼 Professional Experience
-
-Experience across technical support, customer-facing technical troubleshooting and technology-enabled warehouse and logistics operations.
-
-My professional background has developed my ability to troubleshoot problems, work with operational systems, document issues, maintain data accuracy and work effectively in process-driven environments.
-
----
-
-## 🎯 Current Focus
-
-I'm currently developing practical skills in:
-
-* Security Operations
-* Incident Response
-* Cybersecurity Automation
-* Network Security
-* Python
-* Cloud & Infrastructure Security
-* Threat Detection
-* Security Risk Management
-
----
-
-## 📂 Portfolio
-
-This GitHub profile contains academic, practical and self-directed projects demonstrating my development across cybersecurity, computing, programming, data and IoT.
+Technical support and customer-facing troubleshooting, and technology-enabled warehouse and logistics operations: diagnosing problems under pressure, keeping accurate records and following process - the day-to-day habits of a SOC analyst.
 
 ---
 
 ## 🤝 Connect
-
-[LinkedIn](https://www.linkedin.com/)
+Email : Sharmaprajwal67@gmail.com
 
 Thanks for visiting my profile!
 
